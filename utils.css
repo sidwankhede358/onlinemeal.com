@@ -1,0 +1,122 @@
+/* #home{
+    background: url(/img/backgroundfood.png) center center / cover no-repeat;
+    height: 70vh;
+    width: 100vw;
+    margin: auto;
+    background-color: #ff8910;
+} */
+/* font-family: 'Baloo Bhai 2', cursive;
+ font-family: 'Bree Serif', serif;
+font-family: 'Potta One', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Varela Round', sans-serif; */
+.max-width-1{
+    max-width: 80%;
+    margin: auto;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 536px;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+#home::before{
+    content: '';
+    position: absolute;
+    background-image: url('bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 642px;
+    width: 100%;
+     top: 0;
+    left: 0;
+   
+    z-index: -1;
+    opacity: 0.80;
+    background-color: #ead9bf;
+    
+}
+#home h1{
+    color: rgb(165, 20, 20);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+}
+#home p{
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+}
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+.btn{
+    padding: 7px 19px;
+        border-radius: 10px;
+        border: 2px solid white;
+        background: brown;
+        color: white;
+        margin: 15px;
+        font-size: 1.2rem;
+}
+.services-container{
+
+}
+.services{
+margin: 34px;
+display: flex;
+}
+.services .box{
+  border: 2px solid;
+  padding: 34px;
+  margin: 3px 15px;
+  border-radius: 28px;
+  background-color: #f3e3e3
+}
+.services .box p{
+    font-family: 'Bree Serif', serif;
+}
+.services .box img{
+  height: 160px;
+  display: block;
+  margin: auto;
+}
+.services-container{
+
+}
+
+.center{
+    text-align: center;
+}
+#client{
+    position: relative;
+}
+#client::before{
+    content: '';
+    position: absolute;
+    background-image: url('/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 450px;
+    width: 100%;
+     top: 0;
+    left: 0;
+   
+    z-index: -1;
+    opacity: 0.4;
+    background-color: #ead9bf;
+    
+}

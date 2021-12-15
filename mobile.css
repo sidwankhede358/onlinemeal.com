@@ -1,0 +1,93 @@
+@media screen and (max-width:1244px) {
+    
+
+
+.navbar{
+   flex-direction: column;
+}
+.navbar ul{
+}
+.navbar .logo{
+  margin-left: 0px;
+}
+#home{
+height: 500px;
+
+}
+#home::before{
+    height: 652px;
+
+}
+#home {
+  
+  padding: 3px 14px;
+  
+}
+#home p{
+    font-size: 1.0rem;
+}
+.services .box {
+  border: 2px solid;
+  padding: 6px;
+  margin: 13px0px;
+  border-radius: 28px;
+  background-color: #f3e3e3;
+}
+
+.services{
+flex-direction: column;
+}
+.clients {
+ 
+}
+#client {
+  height: 100vh;
+}
+#contact-box form {
+  width: 85%;
+}
+.clients img {
+  margin: 25px 1px;
+  
+}
+.clients-item{
+   
+    text-align: center;
+    width: 100%;
+}
+
+.clients-item img{
+ width: 100%;
+}
+.navbar ul li a {
+  display: block;
+  text-decoration: none;
+  margin: 5px 5px;
+  font-size: 1.2rem;
+  color: white;
+  border-radius: 10px;
+  padding: 2px 4px;
+}
+.h-primary {
+  font-size: 2.1rem;
+ 
+}
+.navbar::before {
+  height: 150px;
+}
+.clients {
+  display: flex;
+  height: 400x;
+  width: 100%;
+  margin: auto;
+  align-items: center;
+}
+#client::before{
+ 
+  height: 100vh;
+  width: 100%;
+  
+ 
+  
+}
+}
